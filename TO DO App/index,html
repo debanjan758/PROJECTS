@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stat-container">
+            <div class="details">
+                <h1>Todo App</h1>
+                <p>Keep going on!!!</p>
+                <div id="progressbar"><!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Document</title>
+                        <link rel="stylesheet" href="./style.css">
+                    </head>
+                    <body>
+                        <div class="container">
+                            <div class="stat-container">
+                                <div class="details">
+                                    <h1>Todo App</h1>
+                                    <p>Keep going on!!!</p>
+                                    <div id="progressbar">
+                                        <div id="progress"></div>
+                                    </div>
+                                </div>
+                                <div class="stat-numbers">
+                                    <p id="numbers">2/ 3</p>
+                                </div>
+                            </div>
+                    
+                            <form action="">
+                                <input type="text" id="taskinput" placeholder="Write down your task">
+                                <button id="newtask" type="submit">+</button>
+                            </form>
+                            <ul class="task-list"></ul>
+                        </div>
+                        <script src="./app.js"></script>
+                    </body>
+                    </html>
+                    
+                    
+                    
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stat-numbers">
+                <p id="numbers">2/ 3</p>
+            </div>
+        </div>
+
+        <form action="">
+            <input type="text" placeholder="Write down your task">
+            <button type="submit">+</button>
+        </form>
+        <ul class="task-list"></ul>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
