@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Expense Tracker</h1>
+  </header>
+  <main>
+    <section id="add-transaction">
+      <h2>Add Transaction</h2>
+      <form id="transaction-form">
+        <input type="text" id="description" placeholder="Description" required>
+        <input type="number" id="amount" placeholder="Amount" required>
+        <select id="type">
+          <option value="income">Income</option>
+          <option value="expense">Expense</option>
+        </select>
+        <button type="submit">Add Transaction</button>
+      </form>
+    </section>
+
+    <section id="summary">
+      <h2>Summary</h2>
+      <canvas id="expenseChart" style="width:100%; max-width:600px; margin: 0 auto;"></canvas>
+    </section>
+
+    <section id="history">
+      <h2>Transaction History</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Type</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="transaction-list">
+          <!-- Transactions will appear here -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p>Expense Tracker © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
